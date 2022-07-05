@@ -5,9 +5,9 @@
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   background-color: #2a2c2f;
-  overflow-x: hidden;
+  width: 100%;
 }
-
+/*
 @media screen and (min-width: 1280px) {
   .page {
     width: 1280px;
@@ -31,4 +31,4 @@
   .page {
     min-width: 320px;
   }
-}
+}*/

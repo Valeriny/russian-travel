@@ -1,6 +1,7 @@
 .cover {
   margin: 0 auto;
   padding: 0;
+  box-sizing:border-box;
 }
 
 @media screen and (min-width: 1280px) {
@@ -12,14 +13,14 @@
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
   .cover {
-    min-width: 1024px;
+    max-width: 1024px;
     margin-top: 92px;
   }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .cover {
-    min-width: 768;
+    max-width: 768;
     margin-top: 90px;
   }
 }
