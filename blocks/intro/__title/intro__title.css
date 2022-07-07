@@ -9,12 +9,20 @@
 
 @media screen and (min-width: 1024px) {
   .intro__title {
-    width: 690px;
+    max-width: 690px;
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px){
   .intro__title {
-    width: 720px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px)  {
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

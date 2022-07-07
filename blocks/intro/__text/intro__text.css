@@ -4,16 +4,17 @@
   color: #fff;
   margin: 40px 0 0;
   padding: 0;
+  max-width: 690px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px){
   .intro__text {
-    width: 690px;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
-  .intro__text {
-    width: 720px;
+@media screen and (max-width: 767px){
+  .intro__text  {
+    max-width: 288px;
   }
 }
